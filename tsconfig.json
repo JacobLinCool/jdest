@@ -1,0 +1,25 @@
+{
+    "exclude": [
+        "lib",
+        "src/_tests",
+        "tsup.config.ts"
+    ],
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "esnext"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "outDir": "./lib",
+        "declaration": true,
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "noEmitOnError": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
+}
